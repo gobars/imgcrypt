@@ -25,11 +25,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/containers/ocicrypt"
-	encconfig "github.com/containers/ocicrypt/config"
-	"github.com/containers/ocicrypt/config/pkcs11config"
-	"github.com/containers/ocicrypt/crypto/pkcs11"
-	encutils "github.com/containers/ocicrypt/utils"
+	"github.com/gobars/ocicrypt"
+	encconfig "github.com/gobars/ocicrypt/config"
+	"github.com/gobars/ocicrypt/config/pkcs11config"
+	"github.com/gobars/ocicrypt/crypto/pkcs11"
+	encutils "github.com/gobars/ocicrypt/utils"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

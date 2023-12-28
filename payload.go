@@ -19,7 +19,7 @@ package imgcrypt
 import (
 	"github.com/containerd/typeurl"
 
-	encconfig "github.com/containers/ocicrypt/config"
+	encconfig "github.com/gobars/ocicrypt/config"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

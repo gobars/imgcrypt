@@ -27,7 +27,7 @@ import (
 	"github.com/containerd/imgcrypt/cmd/ctr/commands/img"
 	imgenc "github.com/containerd/imgcrypt/images/encryption"
 	"github.com/containerd/imgcrypt/images/encryption/parsehelpers"
-	encconfig "github.com/containers/ocicrypt/config"
+	encconfig "github.com/gobars/ocicrypt/config"
 	"github.com/urfave/cli"
 
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

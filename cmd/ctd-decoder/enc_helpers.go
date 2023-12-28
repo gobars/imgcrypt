@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	encconfig "github.com/containers/ocicrypt/config"
-	cryptUtils "github.com/containers/ocicrypt/utils"
+	encconfig "github.com/gobars/ocicrypt/config"
+	cryptUtils "github.com/gobars/ocicrypt/utils"
 )
 
 // getDecryptionKeys reads the keys from the given directory

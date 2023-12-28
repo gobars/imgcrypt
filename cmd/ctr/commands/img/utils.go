@@ -25,7 +25,7 @@ import (
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/platforms"
 
-	encocispec "github.com/containers/ocicrypt/spec"
+	encocispec "github.com/gobars/ocicrypt/spec"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

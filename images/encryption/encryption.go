@@ -31,9 +31,9 @@ import (
 	"github.com/containerd/containerd/images/converter"
 	"github.com/containerd/containerd/platforms"
 
-	"github.com/containers/ocicrypt"
-	encconfig "github.com/containers/ocicrypt/config"
-	encocispec "github.com/containers/ocicrypt/spec"
+	"github.com/gobars/ocicrypt"
+	encconfig "github.com/gobars/ocicrypt/config"
+	encocispec "github.com/gobars/ocicrypt/spec"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/image-spec/specs-go"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
@@ -424,6 +424,7 @@ func cryptManifestList(ctx context.Context, cs content.Store, desc ocispec.Descr
 			return ocispec.Descriptor{}, false, fmt.Errorf("failed to marshal index: %w", err)
 		}
 
+		// digest
 		newDesc := ocispec.Descriptor{
 			MediaType: ocispec.MediaTypeImageIndex,
 			Size:      int64(len(mb)),

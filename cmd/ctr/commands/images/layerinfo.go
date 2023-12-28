@@ -28,7 +28,7 @@ import (
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/imgcrypt/cmd/ctr/commands/img"
 	"github.com/containerd/imgcrypt/images/encryption/parsehelpers"
-	"github.com/containers/ocicrypt"
+	"github.com/gobars/ocicrypt"
 
 	"github.com/urfave/cli"
 )
