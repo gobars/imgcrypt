@@ -9,7 +9,7 @@ require (
 	github.com/containerd/containerd v1.6.23
 	github.com/containerd/go-cni v1.1.6
 	github.com/containerd/typeurl v1.0.2
-	github.com/gobars/ocicrypt v0.0.2
+	github.com/gobars/ocicrypt v0.0.5
 	github.com/gogo/protobuf v1.3.2
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b
@@ -52,7 +52,6 @@ require (
 	github.com/russross/blackfriday/v2 v2.0.1 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/stefanberger/go-pkcs11uri v0.0.0-20201008174630-78d3cae3a980 // indirect
-	go.mozilla.org/pkcs7 v0.0.0-20200128120323-432b2356ecb1 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
